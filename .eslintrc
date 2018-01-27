@@ -1,0 +1,15 @@
+{
+  "extends": ["standard", "standard-react"],
+  "rules": {
+    "comma-dangle": ["error", {
+      "arrays": "always-multiline",
+      "objects": "always-multiline",
+      "imports": "always-multiline",
+      "exports": "always-multiline",
+      "functions": "ignore"
+    }],
+    "semi": ["error", "always"],
+    "space-before-function-paren": ["error", "never"],
+    "jsx-quotes": ["error", "prefer-double"]
+  }
+}
